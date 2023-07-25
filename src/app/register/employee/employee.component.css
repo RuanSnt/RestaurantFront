@@ -1,48 +1,47 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .container {
-    background-color: #f0f0f0;
-    padding: 20px;
-    max-width: 400px;
-  }
-  
-  .header {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  .button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  .button:hover {
-    background-color: #45a049;
-  }
-  
-  .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #f0f0f0;
-    padding: 10px;
-    text-align: center;
-  }
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f0eaea;
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa toda a altura da tela */
+}
+
+.container {
+  background-color: #ff9f00;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+.container h2 {
+  color: #fff;
+  font-size: 36px;
+  margin: 0;
+}
+
+.button {
+  background-color: #ff9f00;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px; /* Tamanho do botão ajustado */
+  width: 220px;
+  margin: 0 auto;
+  margin-top: 500px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff8c00;
+}
